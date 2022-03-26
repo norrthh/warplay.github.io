@@ -63,7 +63,7 @@ header .navbar-nav .nav-brand {
   padding-top: 45px;
 }
 .index1 .img1 {
-  background-image: url("/https://norrthh.github.io/warplay.github.ioimg/Rectangle 115.png");
+  background-image: url("https://norrthh.github.io/warplay.github.io/img/Rectangle 115.png");
   background-repeat: no-repeat;
   background-position: center;
   box-sizing: border-box;
@@ -109,7 +109,7 @@ header .navbar-nav .nav-brand {
   display: block;
   margin-top: 131px;
   padding: 20px 98px;
-  background-image: url(../img/btn1.png);
+  background-image: url(https://norrthh.github.io/warplay.github.io/img/btn1.png);
   background-repeat: no-repeat;
   background-position: center;
 }
