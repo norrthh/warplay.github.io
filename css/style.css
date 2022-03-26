@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'Roboto 300';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto 500';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto 700';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlvAw.ttf) format('truetype');
+}
+:root {
+  --color1: #57D6FF;
+  --color2: #ABABAB;
+  --bg1: #1F2631;
+  --bg2: #00C5FF;
+  --font1: 'Roboto 300';
+  --font2: 'Roboto 500';
+  --font3: 'Roboto 700';
+  --font4: 'Aire Exterior Regular';
+}
+body {
+  background: var(--bg1);
+  color: white;
+  padding: 15px;
+}
+header {
+  height: 123px;
+}
+header .navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+header .navbar-nav {
+  margin-left: 100px;
+}
+header .navbar-nav .nav-item a {
+  padding: 15px 0 10px 0;
+  margin-left: 2rem;
+  color: #fff;
+  font-family: var(--font1);
+  -webkit-transition: all 0.2s ease-in-out;
+}
+header .navbar-nav .nav-item a:hover {
+  color: var(--color1);
+  box-shadow: inset 0 -2px 0 var(--color1);
+}
+header .navbar-nav .nav-item .active {
+  color: var(--color1);
+  box-shadow: inset 0 -2px 0 var(--color1);
+}
+header .navbar-nav .nav-brand {
+  padding-top: 45px;
+}
+.index1 .img1 {
+  background-image: url("/img/Rectangle 115.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  box-shadow: -33px 17px 29px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  height: 777px;
+  border: 2px solid #57D6FF;
+}
+.index1 .img2 {
+  background-image: url("/img/Rectangle 94.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  box-shadow: -33px 17px 29px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  height: 777px;
+  border: 2px solid #57D6FF;
+}
+.index1 .img3 {
+  background-image: url("/img/Rectangle 133.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  box-shadow: -33px 17px 29px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  height: 777px;
+  border: 2px solid #57D6FF;
+}
+.index1 .content {
+  padding-top: 164px;
+}
+.index1 .content p {
+  font-family: var(--font2);
+}
+.index1 .content h1 {
+  font-family: var(--font4);
+}
+.index1 .content .button1 {
+  font-family: var(--font4);
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  display: block;
+  margin-top: 131px;
+  padding: 20px 98px;
+  background-image: url(../img/btn1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.index1 .content .button1:hover {
+  cursor: pointer;
+}
